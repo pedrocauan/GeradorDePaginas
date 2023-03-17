@@ -48,15 +48,15 @@
 
     <?php for ($i = 0; $i < $qntProd; $i++) : ?>
 
-        <ul class="bg-stone-800 p-4 text-neutral-200 h-screen">
+        <ul class="bg-stone-800 p-4 text-neutral-200 min-h-screen h-full ">
             <li>
                 <h2 class="text-3xl text-yellow-300 mb-3 text-center uppercase tracking-wider p-4 bg-stone-900">Produto <?php echo $i + 1 ?></h2>
                 <?php for ($j = 0; $j < $qntItem; $j++) : ?>
-                    <ul class="bg-stone-600 p-2">
-                        <li class="text-2xl p-2 text-yellow-500">
+                    <ul class="bg-stone-600 p-2 ">
+                        <li class="text-2xl p-2 text-yellow-500" >
                             <h2 class="mb-3">item <?php echo $j + 1 ?></h2>
                             <?php for ($k = 0; $k < $qntDesc; $k++) : ?>
-                                <ul class="bg-stone-500 p-2">
+                                <ul class="bg-stone-500 p-2 ">
                                     <li class="text-xl text-yellow-200 p-2">descrição <?php echo $k + 1 ?></li>
                                 </ul>
 
